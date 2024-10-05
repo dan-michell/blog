@@ -1,9 +1,9 @@
 +++
-title = "bear"
-menu = "main"
+title = "About"
+menu = "about"
 +++
 
-# Bear
+# about
 
 Website: https://bearblog.dev
 
