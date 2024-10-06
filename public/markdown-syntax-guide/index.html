@@ -40,7 +40,7 @@
   <meta itemprop="description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements.">
   <meta itemprop="datePublished" content="2020-01-03T00:00:00+00:00">
   <meta itemprop="dateModified" content="2020-01-03T00:00:00+00:00">
-  <meta itemprop="wordCount" content="451">
+  <meta itemprop="wordCount" content="452">
   <meta itemprop="image" content="http://localhost:1313/images/share.png">
   <meta itemprop="keywords" content="Markdown,Syntax">
 <meta name="referrer" content="no-referrer-when-downgrade" />
@@ -48,20 +48,20 @@
   <style>
   :root {
       --width: 720px;
-      --font-main: 'JetBrains Mono';
-      --font-secondary: 'JetBrains Mono';
-      --font-scale: .9em;
+      --font-main: 'Proxima Nova';
+      --font-secondary: 'Proxima Nova';
+      --font-scale: 1em;
       --background-color: #fff;
       --heading-color: #232333;
       --text-color: #232333;
       --link-color: #232333;
       --visited-color: #232333;
-      --main-color: #ff0000;
+      --main-color: #089d28;
       --code-background-color: #f2f2f2;
       --code-color: #222;
       --blockquote-color: #222;
       --big-border-color: #232333;
-      --background-color-dark: #333;
+      --background-color-dark: #202020;
       --text-color-dark: #ddd;
       --visited-color-dark: #ddd;
       --link-color-dark: #ddd;
@@ -88,8 +88,14 @@
   h4,
   h5,
   h6 {
-      font-family: var(--font-main);
-      color: var(--heading-color);
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+    margin-top: 0;
   }
 
   a {
@@ -97,7 +103,7 @@
       font-family: var(--font-main);
       cursor: pointer;
       text-decoration: none;
-      border-bottom: 1px solid #ff0000;
+      border-bottom: 1px solid #089d28;
   }
 
   a:hover {
@@ -107,9 +113,9 @@
   }
 
   header {
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       padding-bottom: 20px;
-      border-bottom: 3px dotted var(--big-border-color);
+      border-bottom: 1px solid var(--big-border-color);
   }
 
   nav a {
@@ -145,10 +151,7 @@
 
   code {
       font-family: monospace;
-      padding: 2px;
-      background-color: var(--code-background-color);
-      color: var(--code-color);
-      border-radius: 3px;
+       
   }
 
   blockquote {
@@ -159,9 +162,9 @@
   }
 
   footer {
-      margin-top: 40px;
-      border-top: 3px dotted var(--big-border-color);
-      padding: 25px 0;
+      margin-top: 30px;
+      border-top: 1px solid var(--big-border-color);
+      padding: 20px 0;
       text-align: center;
   }
 
@@ -179,8 +182,6 @@
 
   .highlight,
   .code {
-      padding: 1px 15px;
-      background-color: var(--code-background-color);
       color: var(--code-color);
       border-radius: 3px;
       margin-block-start: 1em;
@@ -252,10 +253,6 @@
       border-color: var(--big-border-color-dark);
     }
 
-    code {
-      background-color: #777;
-    }
-
     pre code {
       color: #ddd;
     }
@@ -285,7 +282,14 @@
   <header><a href="/" class="title">
   <h2>dan michell</h2>
 </a>
-<nav></nav>
+<nav><a href="/">home</a>
+
+
+<a href="/blog">blog</a>
+
+
+<a href="/about">about</a>
+</nav>
 </header>
   <main>
 
@@ -364,17 +368,17 @@
 </table>
 <h2 id="code-blocks">Code Blocks</h2>
 <h4 id="code-block-with-backticks">Code block with backticks</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!doctype html&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">body</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;
-</span></span></code></pre></div><h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces</h4>
+<pre tabindex="0"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&#34;utf-8&#34; /&gt;
+    &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;Test&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre><h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces</h4>
 <pre><code>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -451,15 +455,13 @@
 
   </main>
   <footer><small>
-    <a href="mailto:jan@janraasch.com">Email</a> |
-    <a href="https://calendly.com/jan-raasch/office-hours">15min 1-on-1</a> |
-    <a href="https://github.com/janraasch">GitHub</a> |
-    <a href="https://huggingface.co/janraasch">Hugging Face</a> |
-    <a href="/imprint/">Imprint</a>
-    </small>
-    <br>
-    <small>
-    Feel free to get in touch in English and/or German
+    <a href="mailto:dan.michell1000@gmail.com">email</a> |
+    <a href="https://github.com/dan-michell">github</a> |
+    <a href="https://www.linkedin.com/in/dan-michell/">linkedin</a>
+</small>
+<br>
+<small>
+    Feel free to get in touch!
 </small></footer>
 
     

@@ -1,20 +1,20 @@
 <style>
   :root {
       --width: 720px;
-      --font-main: 'JetBrains Mono';
-      --font-secondary: 'JetBrains Mono';
-      --font-scale: .9em;
+      --font-main: 'Proxima Nova';
+      --font-secondary: 'Proxima Nova';
+      --font-scale: 1em;
       --background-color: #fff;
       --heading-color: #232333;
       --text-color: #232333;
       --link-color: #232333;
       --visited-color: #232333;
-      --main-color: #ff0000;
+      --main-color: #089d28;
       --code-background-color: #f2f2f2;
       --code-color: #222;
       --blockquote-color: #222;
       --big-border-color: #232333;
-      --background-color-dark: #333;
+      --background-color-dark: #202020;
       --text-color-dark: #ddd;
       --visited-color-dark: #ddd;
       --link-color-dark: #ddd;
@@ -41,8 +41,14 @@
   h4,
   h5,
   h6 {
-      font-family: var(--font-main);
-      color: var(--heading-color);
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+    margin-top: 0;
   }
 
   a {
@@ -50,7 +56,7 @@
       font-family: var(--font-main);
       cursor: pointer;
       text-decoration: none;
-      border-bottom: 1px solid #ff0000;
+      border-bottom: 1px solid #089d28;
   }
 
   a:hover {
@@ -60,9 +66,9 @@
   }
 
   header {
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       padding-bottom: 20px;
-      border-bottom: 3px dotted var(--big-border-color);
+      border-bottom: 1px solid var(--big-border-color);
   }
 
   nav a {
@@ -98,10 +104,7 @@
 
   code {
       font-family: monospace;
-      padding: 2px;
-      background-color: var(--code-background-color);
-      color: var(--code-color);
-      border-radius: 3px;
+      /* padding: 2px; */
   }
 
   blockquote {
@@ -112,9 +115,9 @@
   }
 
   footer {
-      margin-top: 40px;
-      border-top: 3px dotted var(--big-border-color);
-      padding: 25px 0;
+      margin-top: 30px;
+      border-top: 1px solid var(--big-border-color);
+      padding: 20px 0;
       text-align: center;
   }
 
@@ -132,8 +135,6 @@
 
   .highlight,
   .code {
-      padding: 1px 15px;
-      background-color: var(--code-background-color);
       color: var(--code-color);
       border-radius: 3px;
       margin-block-start: 1em;
@@ -203,10 +204,6 @@
 
     footer {
       border-color: var(--big-border-color-dark);
-    }
-
-    code {
-      background-color: #777;
     }
 
     pre code {
