@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>C on dan michell</title>
+    <title>C on dan-michell.cc</title>
     <link>http://localhost:1313/blog/c/</link>
-    <description>Recent content in C on dan michell</description>
+    <description>Recent content in C on dan-michell.cc</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>Copyright © 2024, Dan Michell.</copyright>
@@ -14,7 +14,7 @@
       <link>http://localhost:1313/c/</link>
       <pubDate>Mon, 07 Oct 2024 00:45:49 +0100</pubDate>
       <guid>http://localhost:1313/c/</guid>
-      <description>&lt;p&gt;This is a page about »C«.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;em&gt;This page will be updated over time as I progress in learning C.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;cs50&#34;&gt;CS50&lt;/h1&gt;</description>
     </item>
   </channel>
 </rss>

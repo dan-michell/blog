@@ -7,4 +7,6 @@ tags = [
 ]
 +++
 
-This is a page about »C«.
+_This page will be updated over time as I progress in learning C._
+
+# CS50

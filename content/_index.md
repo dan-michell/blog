@@ -1,10 +1,5 @@
 +++
-
-# This title is used as the og:title on Hugo's internal
-
-# opengraph structured data template on the home page.
-
-# See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-
 title = "Home"
 +++
+
+Thank you for visiting my website. I've kept things simple - see the blog page for some previous projects / things i'm interested in and the about page for some more information about me.
