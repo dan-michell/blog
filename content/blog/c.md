@@ -24,3 +24,5 @@ This is the rough plan I will follow:
 - **Graphics** - During my Mech. Eng. studies matrices and vectors were used throughout, and I enjoyed solving these problems utilising these a lot. To scratch that itch and also make something pretty appear on my screen I want to give graphics programming a shot. C has had a large part to play in graphics development, while still being relevant today resulting in many resources available. I probably won't wait until all the reading is done before messing around with this.
 
 # cs50
+
+I won't
