@@ -21,7 +21,7 @@ This is the rough plan I will follow:
 
 - **Complete CS50** - The first term of Harvard's computer science course. Uses C to introduce basic data structures and algorithms along with covering a lot of fundamental syntax. Has multiple problems to solve after each lecture to avoid falling into tutorial hell.
 - **Read C Programming: A Modern Approach by K. N. King** - Recommended by many who have gone through the process of learning the language. Covers all aspects of the language in a very approachable manor. Will also allow me to test my recall of the concepts covered over CS50.
-- **Graphics** - During my Mech. Eng. studies matrices and vectors were used throughout, and I enjoyed solving these problems utilising these a lot. To scratch that itch and also make something pretty appear on my screen I want to give graphics programming a shot. C has had a large part to play in graphics development, while still being relevant today resulting in many resources available. I probably won't wait until all the reading is done before messing around with this.
+- **Graphics** - During my Mech. Eng. studies matrices and vectors were used throughout, and I enjoyed solving this type of problem a lot. To scratch that itch and also make something pretty appear on my screen I want to give graphics programming a shot. C has had a large part to play in graphics development, while still being relevant today resulting in many resources available. I probably won't wait until all the reading is done before messing around with this.
 
 # cs50
 
